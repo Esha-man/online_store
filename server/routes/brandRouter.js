@@ -4,7 +4,7 @@ const brandController = require("../controllers/brandController")
 
 
 router.post("/", brandController.create);
-router.get("/", brandController.get);
+router.get("/", brandController.getAll);
 router.put("/", brandController.put);
 router.delete("/", brandController.delete);
 

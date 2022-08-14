@@ -4,7 +4,7 @@ const typeController = require("../controllers/typeController")
 
 
 router.post("/", typeController.create);
-router.get("/", typeController.get);
+router.get("/", typeController.getAll);
 // router.put("/", typeController.put);
 // router.delete("/", typeController.delete);
 

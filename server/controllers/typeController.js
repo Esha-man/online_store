@@ -8,8 +8,9 @@ class TypeController {
         return res.json(type)
     }
 
-    async get(req, res) {
-
+    async getAll(req, res) {
+        const types = await ProductType.findAll()
+        return res.json(types)
     }
 
     async put(req, res) {
