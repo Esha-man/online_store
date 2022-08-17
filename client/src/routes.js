@@ -8,11 +8,11 @@ import ProductPage from "./pages/ProductPage";
 export const authRoutes = [
     {
         path: ADMIN_ROUTE,
-        Component: Admin,
+        Component: Admin(),
     },
     {
         path: BASKET_ROUTE,
-        Component: Basket,
+        Component: Basket(),
     },
 
 ]
